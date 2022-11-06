@@ -1,0 +1,11 @@
+defaults:
+  - scheduler: linear_with_warmup
+  - optimizer: adamw
+  - model: lrdiscriminative_roberta
+  - setup: rtx_8000_b16_a4
+  - training: base
+  - task: lrdiscriminative
+  - override /hydra/job_logging: none
+  - override /hydra/hydra_logging: none
+
+num_workers: 0

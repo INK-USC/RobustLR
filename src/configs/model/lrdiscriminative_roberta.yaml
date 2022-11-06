@@ -1,0 +1,4 @@
+model: lrdiscriminative
+arch: roberta_large_race
+hf_name: LIAMF-USP/roberta-large-finetuned-race
+padding: 1

@@ -1,0 +1,9 @@
+# @package _global_
+defaults:
+  - override /model: lrgenerative_t5_large
+
+seed: 2
+max_epochs: 4
+learning_rate: 1e-4
+adam_epsilon: 1e-6
+weight_decay: 0.01
